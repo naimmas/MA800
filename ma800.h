@@ -31,4 +31,4 @@ double MA800_GetZeroAngle();
 OperationStatus_t MA800_SetSwtichMagneticThreshold(uint8_t low_threshold, uint8_t high_threshold);
 void MA800_GetSwtichMagneticThreshold(uint8_t* low_threshold_buffer, uint8_t* high_threshold_buffer);
 bool MA800_GetRotationDirection();
-bool MA00_GetMagneticSwitchState();
+uint8_t MA00_GetMagneticSwitchState();
